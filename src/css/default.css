@@ -1,0 +1,92 @@
+body {
+  /*background-color: #D29034;*/
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #111;
+  color: #EEE;
+}
+.caption {
+  /*padding-left: 20px;*/
+  color: #EEE;
+}
+.post-it-list {
+  display: flex;
+  align-self: flex-end;
+}
+/*.form-horizontal {
+  width: 300px;
+}*/
+
+/*.add-post-it {
+  width: 300px;
+  border: 2px solid black;
+}*/
+
+/*.post-it-add-form {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #111;
+}
+.post-it-title {
+  padding: 20px;
+}
+
+.post-it-desc {
+  padding: 20px;
+}
+
+.bottom-line-button {
+  padding: 20px;
+  color: #111;
+}*/
+
+.list-group {
+  display: flex;
+}
+.list-group-item {
+  /*display: flex;*/
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  padding: 10px;
+  color: #111;
+  overflow: scroll;
+}
+.item-button {
+  position: absolute;
+  right: 40px;
+  bottom: 5px;
+}
+
+/*.color-container {
+  margin: 20px;
+}*/
+
+.box{
+  border-radius: 5px;
+}
+.box.pink{
+	background:#FCA2D6;
+}
+.box.green{
+	background:#4ED1C0;
+}
+.box.blue{
+	background:#4BB0F8;
+}
+.box.yellow{
+	background:#FFFFA5;
+}
+
+.btn-lg {
+  background:#95B804;
+}
